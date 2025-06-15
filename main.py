@@ -1,4 +1,3 @@
-#import os
 from typing import List, Optional
 
 import streamlit as st
@@ -14,14 +13,7 @@ from tools import save_tool, search_tool
 # API Key Input
 # ---------------------------
 # Load env
-#oad_dotenv(dotenv_path=".\.env")
-
-#OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
-#print(OPENAI_API_KEY)
-
-OPENAI_API_KEY="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"
-
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 if not OPENAI_API_KEY:
     raise ValueError("OPENAI_API_KEY não encontrada! Verifique seu arquivo .env")
 
