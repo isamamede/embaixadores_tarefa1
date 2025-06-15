@@ -1,0 +1,9 @@
+langchain 
+langchain-community 
+langchain-openai
+python-dotenv
+pydantic
+duckduckgo-search
+fpdf
+streamlit
+typing
