@@ -99,8 +99,7 @@ if "chat_history" not in st.session_state:
 st.title("🤖 Meta-Master — AI Assistente de Pesquisa")
 st.markdown(
     """
-    Pergunte sobre metodologia científica, revisões, escrita acadêmica, citações, bancos de dados e muito mais.  
-    Use ferramentas como busca na web e exportação para PDF.
+    Pergunte sobre metodologia científica, revisões, escrita acadêmica, citações, bancos de dados e muito mais.
     """
 )
 
