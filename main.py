@@ -96,7 +96,7 @@ if "chat_history" not in st.session_state:
 # ---------------------------
 # Streamlit UI
 # ---------------------------
-st.title("🤖 Meta-Master — AI Assistente de Pesquisa")
+st.title("🤖 Prof. Meta — AI Assistente de Pesquisa")
 st.markdown(
     """
     Pergunte sobre metodologia científica, revisões, escrita acadêmica, citações, bancos de dados e muito mais.
@@ -108,7 +108,7 @@ st.markdown(
 user_query = st.text_input("Digite sua pergunta:")
 
 if user_query:
-    with st.spinner("Meta-Master está pensando..."):
+    with st.spinner("Prof. Meta está pensando..."):
         try:
             inputs = {"query": user_query}
 
@@ -118,7 +118,7 @@ if user_query:
             structured_response = parser.parse(raw_response.get("output"))
 
             # Display structured response
-            st.subheader("Resposta do Meta-Master:")
+            st.subheader("Resposta do Prof. Meta:")
             st.markdown(f"**Tema:** {structured_response.topic}")
             st.markdown(f"**Resposta:** {structured_response.answer}")
 
@@ -134,7 +134,7 @@ if user_query:
 
             # 💾 Update chat history (for display only)
             st.session_state.chat_history.append(("Você", user_query))
-            st.session_state.chat_history.append(("Meta-Master", structured_response.answer))
+            st.session_state.chat_history.append(("Prof. Meta", structured_response.answer))
 
         except Exception as e:
             st.error(f"❌ Erro na resposta: {e}")
