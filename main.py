@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel
 
-from tools import save_tool, search_tool
+from tools import search_tool
 
 # ---------------------------
 # API Key Input
@@ -20,7 +20,7 @@ if not OPENAI_API_KEY:
 # ---------------------------
 # Tools
 # ---------------------------
-tools = [search_tool, save_tool]
+tools = [search_tool]
 
 
 # ---------------------------
