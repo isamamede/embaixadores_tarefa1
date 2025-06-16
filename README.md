@@ -18,7 +18,6 @@ O projeto está disponível gratuitamente em:
 
 - Responde perguntas sobre metodologia científica, revisão sistemática, revisão integrativa, PICO, normas de citação e outros temas acadêmicos.
 - Busca informações atualizadas na internet utilizando DuckDuckGo.
-- Permite salvar as respostas em arquivos PDF.
 - Respostas estruturadas, claras e voltadas para estudantes da área da saúde.
 - Histórico de conversa exibido na interface.
 
