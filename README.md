@@ -1,6 +1,6 @@
-# Meta-Master — Assistente Virtual de Pesquisa e Metodologia Científica
+# Prof. Meta — Assistente Virtual de Pesquisa e Metodologia Científica
 
-**Meta-Master** é um assistente virtual desenvolvido para auxiliar estudantes de cursos da área da saúde em dúvidas relacionadas à **metodologia científica, revisão de literatura, escrita acadêmica e normas de citação**.
+**Prof. Meta** é um assistente virtual desenvolvido para auxiliar estudantes de cursos da área da saúde em dúvidas relacionadas à **metodologia científica, revisão de literatura, escrita acadêmica e normas de citação**.
 
 O assistente utiliza inteligência artificial (IA) com modelo GPT-4o, integrado a ferramentas de busca na web e exportação de respostas em PDF. Foi projetado para oferecer respostas claras, didáticas e organizadas, mesmo para usuários com pouca familiaridade com tecnologia.
 
@@ -71,7 +71,7 @@ streamlit run main.py
 ## 📁 Estrutura do projeto
 
 ```
-meta-master/
+embaixadores_tarefa1/
 ├── .streamlit/
 │   └── secrets.toml
 ├── tools.py
