@@ -40,8 +40,8 @@ O projeto está disponível gratuitamente em:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/isamamede/embaixadores_tarefa1.git meta-master
-cd meta-master
+git clone https://github.com/isamamede/embaixadores_tarefa1.git
+cd new directory
 ```
 
 ### 2. Instale as dependências
